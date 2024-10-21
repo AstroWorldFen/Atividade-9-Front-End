@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start; 
+  justify-content: flex-start;
+  margin: 0; 
+  padding: 0; 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+}
+
+.titulo {
+  margin-bottom: 0.5rem; 
+}
+
+nav {
+  padding: 1%; 
+  width: 100%;
+  background-color: rgb(3, 3, 48);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0; 
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+
+  
